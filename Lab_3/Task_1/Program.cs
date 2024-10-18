@@ -27,7 +27,7 @@ ecosystem.AddOrganism(appleTree);
 ecosystem.AddOrganism(violetFlower);
 ecosystem.AddOrganism(algae);
 ecosystem.AddOrganism(virus);
-// Play(n) - де n = кількість огранизмів
+
 ecosystem.Play(ecosystem.LivingCount());
 
 
