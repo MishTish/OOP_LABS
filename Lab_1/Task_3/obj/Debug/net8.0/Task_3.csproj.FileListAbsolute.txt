@@ -1,0 +1,15 @@
+M:\gthub\ksubg\OOP\LAB\Lab_1\Task_3\bin\Debug\net8.0\Task_3.exe
+M:\gthub\ksubg\OOP\LAB\Lab_1\Task_3\bin\Debug\net8.0\Task_3.deps.json
+M:\gthub\ksubg\OOP\LAB\Lab_1\Task_3\bin\Debug\net8.0\Task_3.runtimeconfig.json
+M:\gthub\ksubg\OOP\LAB\Lab_1\Task_3\bin\Debug\net8.0\Task_3.dll
+M:\gthub\ksubg\OOP\LAB\Lab_1\Task_3\bin\Debug\net8.0\Task_3.pdb
+M:\gthub\ksubg\OOP\LAB\Lab_1\Task_3\obj\Debug\net8.0\Task_3.GeneratedMSBuildEditorConfig.editorconfig
+M:\gthub\ksubg\OOP\LAB\Lab_1\Task_3\obj\Debug\net8.0\Task_3.AssemblyInfoInputs.cache
+M:\gthub\ksubg\OOP\LAB\Lab_1\Task_3\obj\Debug\net8.0\Task_3.AssemblyInfo.cs
+M:\gthub\ksubg\OOP\LAB\Lab_1\Task_3\obj\Debug\net8.0\Task_3.csproj.CoreCompileInputs.cache
+M:\gthub\ksubg\OOP\LAB\Lab_1\Task_3\obj\Debug\net8.0\Task_3.dll
+M:\gthub\ksubg\OOP\LAB\Lab_1\Task_3\obj\Debug\net8.0\refint\Task_3.dll
+M:\gthub\ksubg\OOP\LAB\Lab_1\Task_3\obj\Debug\net8.0\Task_3.pdb
+M:\gthub\ksubg\OOP\LAB\Lab_1\Task_3\obj\Debug\net8.0\Task_3.genruntimeconfig.cache
+M:\gthub\ksubg\OOP\LAB\Lab_1\Task_3\obj\Debug\net8.0\ref\Task_3.dll
+M:\gthub\ksubg\OOP\LAB\Lab_1\Task_3\obj\Debug\net8.0\Task_3.sourcelink.json
