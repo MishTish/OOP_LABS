@@ -4,9 +4,9 @@
     {
         public bool IsPathogenic {  get; set; }
 
-        public Micro(int age, double size, double energy, string species, bool IsPathogenic) : base(age, size, energy, species)
+        public Micro(int age, double size, double energy, string species) : base(age, size, energy, species)
         {
-            this.IsPathogenic = IsPathogenic;
+
         }
 
 
@@ -22,7 +22,7 @@
             {
                 Energy -= 5;
                 Console.WriteLine($"The microorganism {this.Species} reproduces through binary fission. | -5 Energy ({Energy})");
-                Micro baby = new Micro(0, Size, Energy, Species, IsPathogenic);
+                Micro baby = new Micro(0, Size, Energy, Species);
                 return baby;
             }
             Console.WriteLine($"The microorganism {this.Species} doesn't have enough energy and cannot reproduce.");

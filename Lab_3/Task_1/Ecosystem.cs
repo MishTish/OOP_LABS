@@ -1,6 +1,4 @@
-﻿using System.Linq;
-
-namespace Task_1
+﻿namespace Task_1
 {
     internal class Ecosystem
     {
@@ -26,53 +24,76 @@ namespace Task_1
             }
             Console.WriteLine($"The animal {animal.Species} Cannot find a mate.");
             return null;
-            
+
         }
         public void Play(int count)
         {
             for (int i = 0; i < count; i++)
             {
-                organisms[i].GetEnergy();
-
-                if (organisms[i] is IReproducible rep)
+                if (organisms[i].isAlive == true)
                 {
-                    {
-                        if (organisms[i] is Animal)
-                        {
-                            Organism mate = FindMate((Animal)organisms[i]);
-                            Organism newOrg = rep.Reproduce(mate);
-                            if (newOrg != null)
-                            {
-                                organisms.Add(newOrg);
-                            }
-                        }
-                        else
-                        {
-                            Organism newOrg = rep.Reproduce(organisms[i]);
-                            if (newOrg != null)
-                            {
-                                organisms.Add(newOrg);
-                            }
-                        }
-                    }
+                    organisms[i].GetEnergy();
 
-                    }
+
+
+
                     if (organisms[i] is IPredator prd)
                     {
-                        Organism prey;
-                        if (organisms.Count > 1)
+                        if (organisms[i] is Animal j && j.isHunter)
                         {
-                            prey = organisms[0];
-                        }
-                        else
-                        {
-                            prey = null;
-                        }
+                            foreach (Organism hunted in organisms)
+                            {
+                                if (hunted.Species == "Zebra" && organisms[i].Energy <= 40)
+                                {
+                                    prd.Hunt(hunted);
+                                    hunted.isAlive = false;
+                                    hunted.Species += " (Dead)";
+                                }
 
-                        prd.Hunt(prey);
+                            }
+                        }
+                    }
+
+
+                    if (organisms[i] is IReproducible rep)
+                    {
+                        {
+                            if (organisms[i] is Animal)
+                            {
+                                Organism mate = FindMate((Animal)organisms[i]);
+                                Organism newOrg = rep.Reproduce(mate);
+                                if (newOrg != null)
+                                {
+                                    organisms.Add(newOrg);
+                                }
+                            }
+                            else
+                            {
+                                Organism newOrg = rep.Reproduce(organisms[i]);
+                                if (newOrg != null)
+                                {
+                                    organisms.Add(newOrg);
+                                }
+                            }
+                        }
                     }
                 }
             }
+
+        }
+
+        public int LivingCount()
+        {
+            int count = 0;
+            foreach (Organism o in organisms)
+            {
+                if (o.isAlive == true)
+                {
+                    count++;
+                }
+            }
+            return count;
         }
     }
+}
 

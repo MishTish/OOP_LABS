@@ -12,7 +12,9 @@ namespace Task_1
         public int Age { get; set; }
         public double Size { get; set; }
         public double Energy { get; set; }
-        public string Species {  get; set; }
+        public string Species { get; set; }
+
+        public bool isAlive { get; set; }
 
         public Organism(int age, double size, double energy, string species)
         {
@@ -20,6 +22,7 @@ namespace Task_1
             Age = age;
             Size = size;
             Species = species;
+            isAlive = true;
         }
 
         public abstract void GetEnergy();
