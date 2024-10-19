@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "M:\\gthub\\ksubg\\OOP\\LAB\\Lab_3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A39B8F61-F013-4017-B90E-81739DE83A90}|Task_3\\Task_3.csproj|m:\\gthub\\ksubg\\oop\\lab\\lab_3\\task_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A39B8F61-F013-4017-B90E-81739DE83A90}|Task_3\\Task_3.csproj|solutionrelative:task_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A39B8F61-F013-4017-B90E-81739DE83A90}|Task_3\\Task_3.csproj|m:\\gthub\\ksubg\\oop\\lab\\lab_3\\task_3\\trafficsimulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A39B8F61-F013-4017-B90E-81739DE83A90}|Task_3\\Task_3.csproj|solutionrelative:task_3\\trafficsimulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A39B8F61-F013-4017-B90E-81739DE83A90}|Task_3\\Task_3.csproj|m:\\gthub\\ksubg\\oop\\lab\\lab_3\\task_3\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A39B8F61-F013-4017-B90E-81739DE83A90}|Task_3\\Task_3.csproj|solutionrelative:task_3\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A39B8F61-F013-4017-B90E-81739DE83A90}|Task_3\\Task_3.csproj|m:\\gthub\\ksubg\\oop\\lab\\lab_3\\task_3\\idrivable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A39B8F61-F013-4017-B90E-81739DE83A90}|Task_3\\Task_3.csproj|solutionrelative:task_3\\idrivable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A39B8F61-F013-4017-B90E-81739DE83A90}|Task_3\\Task_3.csproj|m:\\gthub\\ksubg\\oop\\lab\\lab_3\\task_3\\road.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A39B8F61-F013-4017-B90E-81739DE83A90}|Task_3\\Task_3.csproj|solutionrelative:task_3\\road.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "M:\\gthub\\ksubg\\OOP\\LAB\\Lab_3\\Task_3\\Program.cs",
+              "RelativeDocumentMoniker": "Task_3\\Program.cs",
+              "ToolTip": "M:\\gthub\\ksubg\\OOP\\LAB\\Lab_3\\Task_3\\Program.cs",
+              "RelativeToolTip": "Task_3\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T19:53:44.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TrafficSimulator.cs",
+              "DocumentMoniker": "M:\\gthub\\ksubg\\OOP\\LAB\\Lab_3\\Task_3\\TrafficSimulator.cs",
+              "RelativeDocumentMoniker": "Task_3\\TrafficSimulator.cs",
+              "ToolTip": "M:\\gthub\\ksubg\\OOP\\LAB\\Lab_3\\Task_3\\TrafficSimulator.cs",
+              "RelativeToolTip": "Task_3\\TrafficSimulator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T19:57:02.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "M:\\gthub\\ksubg\\OOP\\LAB\\Lab_3\\Task_3\\Vehicle.cs",
+              "RelativeDocumentMoniker": "Task_3\\Vehicle.cs",
+              "ToolTip": "M:\\gthub\\ksubg\\OOP\\LAB\\Lab_3\\Task_3\\Vehicle.cs",
+              "RelativeToolTip": "Task_3\\Vehicle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T19:53:59.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IDrivable.cs",
+              "DocumentMoniker": "M:\\gthub\\ksubg\\OOP\\LAB\\Lab_3\\Task_3\\IDrivable.cs",
+              "RelativeDocumentMoniker": "Task_3\\IDrivable.cs",
+              "ToolTip": "M:\\gthub\\ksubg\\OOP\\LAB\\Lab_3\\Task_3\\IDrivable.cs",
+              "RelativeToolTip": "Task_3\\IDrivable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T19:53:32.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Road.cs",
+              "DocumentMoniker": "M:\\gthub\\ksubg\\OOP\\LAB\\Lab_3\\Task_3\\Road.cs",
+              "RelativeDocumentMoniker": "Task_3\\Road.cs",
+              "ToolTip": "M:\\gthub\\ksubg\\OOP\\LAB\\Lab_3\\Task_3\\Road.cs",
+              "RelativeToolTip": "Task_3\\Road.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T19:52:16.728Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
