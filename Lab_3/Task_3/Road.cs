@@ -26,8 +26,9 @@
         public void UpdateTrafficLevel(int vehicleCount)
         {
             Random random = new Random();
-            double change = random.NextDouble() * (0.3 - -0.3) - 0.3; //Random between -0.3 and +0.3
-            TrafficLevel = (Math.Clamp(TrafficLevel + change + vehicleCount * 0.025, 0, 1));
+            double RandomnessFactor = random.NextDouble() * (0.3 - -0.3) - 0.3; //Random value between -0.3 and +0.3
+            double VehicleFactor = vehicleCount * 0.025;
+            TrafficLevel = (Math.Clamp(TrafficLevel + RandomnessFactor + VehicleFactor, 0, 1));
         }
     }
 }

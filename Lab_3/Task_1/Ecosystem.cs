@@ -17,12 +17,12 @@
         {
             foreach (Organism organism in organisms)
             {
-                if (organism is Animal mate && mate.Species == animal.Species && mate != animal)
+                if (organism is Animal mate && mate.species == animal.species && mate != animal)
                 {
                     return mate;
                 }
             }
-            Console.WriteLine($"The animal {animal.Species} Cannot find a mate.");
+            Console.WriteLine($"The animal {animal.species} Cannot find a mate.");
             return null;
 
         }
@@ -43,11 +43,10 @@
                         {
                             foreach (Organism hunted in organisms)
                             {
-                                if (hunted.Species == "Zebra" && organisms[i].Energy <= 40)
+                                if (((int)hunted.species) < 200 && organisms[i].Energy <= 40)
                                 {
                                     prd.Hunt(hunted);
                                     hunted.isAlive = false;
-                                    hunted.Species += " (Dead)";
                                 }
 
                             }
