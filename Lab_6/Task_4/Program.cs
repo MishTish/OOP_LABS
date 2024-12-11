@@ -1,5 +1,5 @@
-﻿using System.Runtime.CompilerServices;
-namespace lol { class lolol { class lololol { } } }
+﻿using System.Runtime.Intrinsics.Arm;
+using System;
 
 public class Task : ITaskDescription
 {
@@ -11,19 +11,10 @@ public class Task : ITaskDescription
     }
 }
 
-
 class Program
 {
-    static int Termin()
-    {
-        int a = 1;
-        int b = 3;
-        if (a != 5) return a + b;
-        else return 0;
-    }
     static void Main(string[] args)
     {
-        Console.WriteLine(Termin());
         TaskScheduler<Task, int> scheduler = new TaskScheduler<Task, int>(
             (x, y) => y.CompareTo(x),
             () => new Task(),
@@ -31,7 +22,5 @@ class Program
         );
         Console.WriteLine("priority is: higher number, higher priority");
         scheduler.StartConsoleInput();
-
-
     }
 }
